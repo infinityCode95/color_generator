@@ -1,0 +1,118 @@
+@import "_null.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+body {
+    color: black;
+    background-color: white;
+	line-height: 1;
+	font-family: "Open sans";
+    font-size: 16px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+
+[class*="__container"] {
+	max-width: 1300px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+
+// !========================================================== STYLE ==============================================================
+
+.main {
+
+	// .main__container
+
+	&__container {
+	}
+}
+
+.switch {
+
+	// .switch__label
+
+	&__label {
+		display: inline-block;
+		margin: 20px 0px 0px 0px;
+		font-size: 20px;
+		font-weight: 600;
+		border-radius: 15px;
+		padding: 8px 15px;
+		cursor: pointer;
+
+
+		&:hover {
+			color: white;
+			background-color: black;
+			transition: all 1s ease 0s;	
+		}
+	}
+
+	// .switch__title
+
+	&__title {
+		background-color:black;
+		color: white;
+		padding: 15px 20px;
+		font-size: 40px;
+		font-weight: 600;
+		border-radius: 15px;	
+	}
+
+	// .switch__span
+
+	&__span {
+
+	}
+
+	// .switch__btn-wrapper
+
+	&__btn-wrapper {
+		
+	}
+
+	// .switch__btn
+
+	&__btn {
+		margin: 20px 0px 0px 0px;
+		width: 150px;
+		border: 3px solid black;
+		border-radius: 10px;
+		padding: 10px 20px;
+		font-size: 25px;
+		font-weight: 600;
+
+		&:hover {
+			color: white;
+			background-color: black;
+			transition: all 0.5s ease 0s;
+		}
+	}
+}
+
+.swtich {
+
+	// .swtich__wrapper
+
+	&__wrapper {
+		margin: 20% 0px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		justify-content: center;
+	}
+}
